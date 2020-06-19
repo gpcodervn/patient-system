@@ -1,0 +1,56 @@
+.gp-app {
+    position: relative;
+}
+/* Header */
+.gp-header {
+    padding: 16px 0;
+    text-align: center;
+}
+
+/* Content */
+.gp-content {
+    margin-bottom: 40px;
+}
+
+/* Footer */
+.gp-footer {
+    width: 100%;
+    margin: 10px 0 0 0;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 26px;
+    background: #f1f1f1;
+}
+
+.gp-copy-right {
+    text-align: center;
+}
+
+/* Form */
+.gp-required {
+    color: chocolate;
+}
+
+.gp-form-disabled .gp-required {
+    display: none;
+}
+
+.gp-form-disabled input {
+    border: none;
+    border-bottom: 1px dashed #1f1f1f;
+    padding: 0;
+}
+
+.gp-error {
+     color: red;
+}
+
+/* Error page */
+.gp-error-404 {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 24px;
+    color: chocolate;
+}
